@@ -72,11 +72,30 @@ extension ViewController: UITableViewDataSource {
         
         return cell
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let vc = segue.destination as? DetailViewController {
+            if let movie = sender as? Movie {
+                vc.movie = movie
+            }
+        }
+    }
 }
 
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView,
                    didSelectRowAt indexPath: IndexPath) {
-        print("tapped at \(indexPath.row)")
+        let movie = movies[indexPath.row]
+        performSegue(withIdentifier: "showMovieDetail",
+                     sender: movie)
+//        let movie = movies[indexPath.row]
+//        let vc = UIViewController()
+//        vc.view.backgroundColor = .blue
+//        vc.modalTransitionStyle = .flipHorizontal
+//        vc.modalPresentationStyle = .overCurrentContext
+//        present(vc,
+//                animated: true)
+//        navigationController?.pushViewController(vc,
+//                                                 animated: true)
     }
 }
