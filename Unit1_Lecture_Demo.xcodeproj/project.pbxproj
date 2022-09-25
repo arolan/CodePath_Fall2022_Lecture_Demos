@@ -22,6 +22,7 @@
 		2C4E866328C7C845003179A0 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E866228C7C845003179A0 /* MovieCell.swift */; };
 		2C4E866828C7EEBD003179A0 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E866728C7EEBD003179A0 /* MovieService.swift */; };
 		2C4E866A28C7F22D003179A0 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E866928C7F22D003179A0 /* Movie.swift */; };
+		2C7EC14E28DF6A3A00B3DDA8 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7EC14D28DF6A3A00B3DDA8 /* WebViewController.swift */; };
 		7DD3FAE5C34914DD2E47409F /* Pods_Unit1_Lecture_Demo_Unit1_Lecture_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDC3C5CED483E20A6C5DA37 /* Pods_Unit1_Lecture_Demo_Unit1_Lecture_DemoUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		2C4E866228C7C845003179A0 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		2C4E866728C7EEBD003179A0 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		2C4E866928C7F22D003179A0 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		2C7EC14D28DF6A3A00B3DDA8 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		2EC1BA82919ED6E0C4207EEA /* Pods-Unit1_Lecture_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unit1_Lecture_Demo.release.xcconfig"; path = "Target Support Files/Pods-Unit1_Lecture_Demo/Pods-Unit1_Lecture_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		63543A26807C334E301DB16E /* Pods_Unit1_Lecture_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unit1_Lecture_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		835C0DD680492A68E31ACEF7 /* Pods-Unit1_Lecture_Demo-Unit1_Lecture_DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unit1_Lecture_Demo-Unit1_Lecture_DemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Unit1_Lecture_Demo-Unit1_Lecture_DemoUITests/Pods-Unit1_Lecture_Demo-Unit1_Lecture_DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				2C4E863328C7BBB5003179A0 /* SceneDelegate.swift */,
 				2C4E863528C7BBB5003179A0 /* ViewController.swift */,
 				2C3DA7FF28D15B5700BDD460 /* DetailViewController.swift */,
+				2C7EC14D28DF6A3A00B3DDA8 /* WebViewController.swift */,
 			);
 			path = "UI Layer";
 			sourceTree = "<group>";
@@ -457,6 +460,7 @@
 				2C4E863428C7BBB5003179A0 /* SceneDelegate.swift in Sources */,
 				2C4E866828C7EEBD003179A0 /* MovieService.swift in Sources */,
 				2C3DA80028D15B5700BDD460 /* DetailViewController.swift in Sources */,
+				2C7EC14E28DF6A3A00B3DDA8 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

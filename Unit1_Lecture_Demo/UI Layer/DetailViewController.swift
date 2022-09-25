@@ -11,7 +11,8 @@ import UIKit
 class DetailViewController: UIViewController {
     var movie: Movie?
     
-    @IBOutlet var movieTitle: UILabel!
+    @IBOutlet var movieOverview: UITextView!
+    @IBOutlet var imageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,10 +20,30 @@ class DetailViewController: UIViewController {
             return
         }
         
-        movieTitle.text = movie.title
+        navigationItem.title = movie.title
+        movieOverview.text = movie.overview
         
-//        if let movie = movie {
-//
-//        }
+        loadImage()
+        
+//        let webViewController = WebViewController()
+//        present(webViewController,
+//                animated: true)
+    }
+    
+    private func loadImage() {
+        guard let imageUrl = movie?.getLargeImageUrl(),
+                let url = URL(string: imageUrl) else {
+            return
+        }
+        
+        DispatchQueue(label: "image").async { [weak self] in
+            if let imageData = try? Data(contentsOf: url) {
+                if let image = UIImage(data: imageData) {
+                    DispatchQueue.main.async {
+                        self?.imageView.image = image
+                    }
+                }
+            }
+        }
     }
 }
