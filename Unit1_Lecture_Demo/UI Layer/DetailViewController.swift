@@ -80,7 +80,7 @@ class DetailViewController: UIViewController {
 
         navigationItem.title = movie.title
         movieOverview.text = movie.overview
-
+        
         loadImage()
         
 //        let webViewController = WebViewController()
@@ -94,11 +94,14 @@ class DetailViewController: UIViewController {
             return
         }
         
+        imageView.showAnimatedGradientSkeleton()
+        
         DispatchQueue(label: "image").async { [weak self] in
             if let imageData = try? Data(contentsOf: url) {
                 if let image = UIImage(data: imageData) {
                     DispatchQueue.main.async {
                         self?.imageView.image = image
+                        self?.imageView.hideSkeleton()
                     }
                 }
             }
