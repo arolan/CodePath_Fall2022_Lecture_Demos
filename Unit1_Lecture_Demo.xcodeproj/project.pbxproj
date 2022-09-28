@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		15FB72953F712C7EEA1C95EB /* Pods_Unit1_Lecture_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2623F078ABC2C7382A4757A /* Pods_Unit1_Lecture_DemoTests.framework */; };
 		18A124E27138DBA3A524A780 /* Pods_Unit1_Lecture_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63543A26807C334E301DB16E /* Pods_Unit1_Lecture_Demo.framework */; };
+		2C042A3728E3A232003A9B24 /* 81986-movie.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C042A3628E3A232003A9B24 /* 81986-movie.json */; };
+		2C042A3928E3A341003A9B24 /* 4762-food-carousel.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C042A3828E3A341003A9B24 /* 4762-food-carousel.json */; };
+		2C042A3B28E3A455003A9B24 /* 9103-entertainment.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C042A3A28E3A455003A9B24 /* 9103-entertainment.json */; };
 		2C3DA80028D15B5700BDD460 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3DA7FF28D15B5700BDD460 /* DetailViewController.swift */; };
 		2C4E863228C7BBB5003179A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E863128C7BBB5003179A0 /* AppDelegate.swift */; };
 		2C4E863428C7BBB5003179A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E863328C7BBB5003179A0 /* SceneDelegate.swift */; };
@@ -47,6 +50,9 @@
 		07BA5B81376BA91ACE2776CC /* Pods-Unit1_Lecture_Demo-Unit1_Lecture_DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unit1_Lecture_Demo-Unit1_Lecture_DemoUITests.release.xcconfig"; path = "Target Support Files/Pods-Unit1_Lecture_Demo-Unit1_Lecture_DemoUITests/Pods-Unit1_Lecture_Demo-Unit1_Lecture_DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		18EAC25AF0F9BC7E012BC65C /* Pods-Unit1_Lecture_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unit1_Lecture_Demo.debug.xcconfig"; path = "Target Support Files/Pods-Unit1_Lecture_Demo/Pods-Unit1_Lecture_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		1CDC3C5CED483E20A6C5DA37 /* Pods_Unit1_Lecture_Demo_Unit1_Lecture_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unit1_Lecture_Demo_Unit1_Lecture_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C042A3628E3A232003A9B24 /* 81986-movie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "81986-movie.json"; sourceTree = "<group>"; };
+		2C042A3828E3A341003A9B24 /* 4762-food-carousel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4762-food-carousel.json"; sourceTree = "<group>"; };
+		2C042A3A28E3A455003A9B24 /* 9103-entertainment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9103-entertainment.json"; sourceTree = "<group>"; };
 		2C3DA7FF28D15B5700BDD460 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		2C4E862E28C7BBB5003179A0 /* Unit1_Lecture_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unit1_Lecture_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4E863128C7BBB5003179A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +135,9 @@
 				2C4E866128C7C82C003179A0 /* UI Layer */,
 				2C4E866428C7EE94003179A0 /* Data Layer */,
 				2C4E863A28C7BBB8003179A0 /* Assets.xcassets */,
+				2C042A3828E3A341003A9B24 /* 4762-food-carousel.json */,
+				2C042A3A28E3A455003A9B24 /* 9103-entertainment.json */,
+				2C042A3628E3A232003A9B24 /* 81986-movie.json */,
 				2C4E863C28C7BBB8003179A0 /* LaunchScreen.storyboard */,
 				2C4E863F28C7BBB8003179A0 /* Info.plist */,
 			);
@@ -324,6 +333,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C4E863E28C7BBB8003179A0 /* LaunchScreen.storyboard in Resources */,
+				2C042A3B28E3A455003A9B24 /* 9103-entertainment.json in Resources */,
+				2C042A3928E3A341003A9B24 /* 4762-food-carousel.json in Resources */,
+				2C042A3728E3A232003A9B24 /* 81986-movie.json in Resources */,
 				2C4E863B28C7BBB8003179A0 /* Assets.xcassets in Resources */,
 				2C4E863928C7BBB5003179A0 /* Main.storyboard in Resources */,
 			);

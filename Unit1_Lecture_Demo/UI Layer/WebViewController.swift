@@ -21,7 +21,7 @@ class WebViewController: UIViewController, WKNavigationDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let url = URL(string: "https://apply.codepath.com/cohorts/university-ios-fall-2022/versions/student/") {
+        if let url = URL(string: "https://www.codepath.org/courses/waitlist") {
             webView?.load(URLRequest(url: url))
             webView?.allowsBackForwardNavigationGestures = true
         }

@@ -8,6 +8,7 @@ target 'Unit1_Lecture_Demo' do
   # Pods for Unit1_Lecture_Demo
   pod 'Alamofire'
   pod 'lottie-ios'
+  pod 'SkeletonView'
 
   target 'Unit1_Lecture_DemoTests' do
     inherit! :search_paths
